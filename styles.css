@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #02000c;
     margin: 0;
     padding: 0;
   }
@@ -10,7 +10,7 @@ body {
   }
   
   p {
-    color: #141922;
+    color: #b7b7c4;
   }
   
   a {
@@ -25,10 +25,12 @@ body {
     text-align: center;
   }
   main {
-    background-color: #848388;
-    padding: 20px;
-    margin: 20px;
-  }
+  background-image: url('shadecrownlogo.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin: 20px;
+}
   
   footer {
     background-color: #5c4f4f;

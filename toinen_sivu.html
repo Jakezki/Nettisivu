@@ -5,18 +5,27 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Jannen toinen sivu!</h1>
-  </header>
+  <header style="display: flex; align-items: center; justify-content: space-evenly;">
+  <h1>Jannen Toinen Sivu</h1>
+  <nav>
+    <ul style="display: flex; list-style: none; padding: 0; gap: 10px;">
+  <li><a href="index.html" style="text-decoration: underline;">Näistä</a></li>
+  <li><a href="index.html" style="text-decoration: underline;">Teksteistä</a></li>
+  <li><a href="index.html" style="text-decoration: underline;">Edelliselle</a></li>
+  <li><a href="index.html" style="text-decoration: underline;">Sivulle</a></li>
+  <li><a href="index.html" style="text-decoration: underline;">UGH!</a></li>
+</ul>
+  </nav>
+</header>
   
   <main>
     <div id="content">
       <h2><u>Lisää Shadecrownia</u></h2>
       <p>Jotta syysmasennus ei iske pahemmin, tässä vielä pari pirteätä kappaletta.</p>
       <div style="display: flex; justify-content: space-between;">
-    <iframe style="margin-bottom: 20px;" width="560" height="315" src="https://www.youtube.com/embed/Y87kykwYD9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe style="margin-bottom: 20px;" width="320" height="200" src="https://www.youtube.com/embed/Y87kykwYD9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/-XU37KYbBxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="320" height="200" src="https://www.youtube.com/embed/-XU37KYbBxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
       <button onclick="location.href='index.html'" type="button">
           Siirry etusivulle
@@ -25,7 +34,28 @@
   </main>
   
   <footer>
-    <p>&copy; Jannen Nettisivut 2023</p>
+    <div style="display: flex; justify-content: space-between;">
+      <div>
+        <a href="https://www.facebook.com/shadecrownband/">
+          <img src="facebook.png" alt="Icon" style="width: 50px; height: auto;">
+          <p>Seuraa meitä Facebookissa</p>
+        </a>
+      </div>
+      <div>
+        <a href="https://www.instagram.com/shadecrownband/">
+          <img src="instagram.png" alt="Icon" style="width: 50px; height: auto;">
+          <p>Seuraa meitä Instagramissa</p>
+        </a>
+      </div>
+      <div>
+        <a href="https://open.spotify.com/artist/27vaCCevKMJ2eS6UBxzqJQ">
+          <img src="spotify.png" alt="Icon" style="width: 50px; height: auto;">
+          <p>Kuuntele meitä Spotifyssä</p>
+        </a>
+      </div>
+    </div>
   </footer>
-</body>
-</html>
+  </body>
+  </html>
+  
+  
